@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: "2010-09-09"
 Transform: AWS::Serverless-2016-10-31
-Description: Dotnet6 Console Project
+Description: Dotnet8 Console Project
 
 Resources:
   Docker8Api:
@@ -8,4 +8,4 @@ Resources:
     Properties:
       CodeUri: ./src/Calories/bin/Release/net8.0/linux-x64/publish/
       Handler: handler
-      Runtime: dotnet6
+      Runtime: dotnet8
